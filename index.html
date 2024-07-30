@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Tag name web -->
+	<link href="Images/bvxa.png" rel="icon">
+	<link href="Images/bvxa.png" rel="apple-touch-icon">
+	<title>Chương trình ưu đãi - Bệnh viện đa khoa Xuyên Á</title>
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="assets/css/variables.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="CSS/util.css" rel="stylesheet">
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="index-page">
+	<!-- ======= Header ======= -->
+	<header class="header fixed-top" data-scrollto-offset="0" style="background-color: #fff;">
+		<div class="container-fluid d-flex align-items-center justify-content-between">
+			<div class="row">
+				<a href="/gioi-thieu" class="col-6 logo d-flex align-items-center scrollto me-auto me-lg-0">
+					<img src="Images/logo.png" width="150" alt="">
+				</a>
+			</div>
+		</div>
+		
+		<header id="header" class="header-column d-flex flex-column justify-content-center">
+			<i class="header-toggle d-xl-none bi bi-list"></i>
+			<nav id="navmenu" class="navmenu">
+				<ul>
+					<li>
+						<a href="/" style="text-decoration: none;" class="nav-link active">
+							<i class="fas fa-home navicon"></i><span>Trang chủ</span>
+						</a>
+					</li>
+					<li>
+						<a href="#trian10nam" style="text-decoration: none;" class="nav-link">
+							<i class="fas fa-gift navicon"></i><span>Tri ân</span>
+						</a>
+					</li>
+					<li>
+						<a href="#goithaisan" style="text-decoration: none;" class="nav-link">
+							<i class="fas fa-baby navicon"></i><span>Thai sản</span>
+						</a>
+					</li>
+					<li>
+						<a href="#vacxin" style="text-decoration: none;" class="nav-link">
+							<i class="fas fa-syringe navicon"></i><span>Vắc-xin</span>
+						</a>
+					</li>
+					<li>
+						<a href="#bhyt" style="text-decoration: none;" class="nav-link">
+							<i class="fas fa-user-injured navicon"></i><span>BHYT</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</header>
+	<!-- End Header -->
+
+	<div style="height: 10px;">
+	</div>
+
+	<main>
+		<!-- ======= Department section ========= -->
+		<section>
+			<div class="d-flex flex-column justify-content-center align-items-center text-center position-relative"
+				data-aos="zoom-out" style="width: 100%;">
+				<!-- Carousel Start -->
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<a href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank"><img src="Images/kyniem10nam.jpg" class="d-block w-100" alt="Slide 1"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank"><img src="Images/goithaisan.jpg" class="d-block w-100" alt="Slide 2"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank"><img src="Images/tiemchung.jpg" class="d-block w-100" alt="Slide 3"></a>
+						</div>
+						<div class="carousel-item">
+							<a href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank"><img src="Images/bhyt.jpg" class="d-block w-100" alt="Slide 4"></a>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- End Department Section -->
+
+		<section id="trian10nam" class="resume section">
+			<!-- Section Title -->
+			<div class="container section-title" data-aos="fade-up">
+				<h2>TRI ÂN KỶ NIỆM 10 NĂM – HỖ TRỢ VIỆN PHÍ HÀNG LOẠT DỊCH VỤ THĂM KHÁM, XÉT NGHIỆM, CHẨN ĐOÁN HÌNH ẢNH
+				</h2>
+				<img src="Images/kyniem10nam.jpg" class="d-block w-100" alt="Slide 1">
+			</div>
+			
+			<!-- End Section Title -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 bp-0" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Chưa từng có từ trước tới nay</h3>
+						<div class="resume-item pb-0">
+							<p>Chào đón kỷ niệm 10 năm thành lập, Bệnh viện Đa khoa Xuyên Á mang đến chương trình hỗ trợ
+								viện phí cho hàng loạt các dịch vụ thăm Khám, Xét nghiệm, Chẩn đoán hình ảnh,... chưa
+								từng có từ trước đến nay.</p>
+							<ul>
+								<li><strong>GIẢM 20% </strong>dịch vụ Khám trong và ngoài giờ</li>
+								<li><strong>GIẢM 10% </strong>đối với 5 dịch vụ Cận lâm sàng kỹ thuật cao</li>
+								<li><strong>GIẢM 5% </strong>đối với 4 dịch vụ Nội soi</li>
+								<li><strong>GIẢM 5% </strong>– 15% đối với 24 dịch vụ cận lâm sàng thường quy</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Thông tin liên quan</h3>
+						<div class="resume-item">
+							<p> Ưu đãi dành cho tất cả bệnh nhân có Bảo hiểm Y tế và không có Bảo hiểm Y tế (Phạm vi áp
+								dụng: khu vực Phòng khám ngoại trú, Khám ngoài giờ, Cấp cứu, không áp dụng cho các dịch vụ là thành phần
+								của gói khám)</p>
+							<p><strong>Địa chỉ áp dụng: </strong>Bệnh viện Đa khoa Xuyên Á TP.HCM (Số 42, Quốc lộ 22, ấp
+								Chợ, xã Tân Phú Trung, huyện Củ Chi, Tp. Hồ Chí Minh.)</p>
+							<p><strong>Bệnh viện Đa khoa Xuyên Á: </u></strong>“Sức khỏe như ý – Không lo chi phí!”</p>
+							<p>Mọi thắc mắc về chương trình, vui lòng liên hệ ngay Tổng đài miễn phí <strong>18009075 (nhấn phím
+								1)</strong> để được tư vấn cụ thể về các dịch vụ ưu đãi!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Chi tiết bảng giá</h3>
+						<div class="resume-item pb-0">		
+							<i>Xem bảng giá chi tiết <a href="https://bvxuyena.com.vn/bang-gia-ho-tro-vien-phi-2024">tại đây!</a>	</i>			
+						</div>
+					</div>
+				
+					<div  class="col-lg-6 m-t-25" data-aos="fade-up" data-aos-delay="200">
+						<a class="btn-get-started" href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank" style="text-decoration: none;">Xem thêm chi tiết</a>
+					</div>
+				</div>
+				
+				
+			</div>
+		</section>
+
+		<section id="goithaisan" class="resume section">
+			<!-- Section Title -->
+			<div class="container section-title" data-aos="fade-up">
+				<h2>ƯU ĐÃI 15% TRỌN GÓI THAI SẢN TẠI XUYÊN Á</h2>
+				<img src="Images/goithaisan.jpg" class="d-block w-100" alt="Slide 2">
+			</div>
+			<!-- End Section Title -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Miễn phí</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li>Miễn phí lựa chọn ekip Bác sĩ đồng hành cùng thai kỳ</li>
+								<li>Miễn phí khám cấp cứu nhập viện khi có dấu hiệu chuyển dạ </li>
+								<li>Miễn phí tham gia các lớp huấn luyện tiền sản và hậu sản</li>
+								<li>Miễn phí Khám cho trẻ sơ sinh hàng ngày bởi bác sĩ chuyên khoa nhi</li>
+								<li>Miễn phí chụp hình ảnh mẹ và bé</li>
+								<li>Miễn phụ thu đối với yêu cầu mổ lấy thai chủ động</li>
+								<li>Miễn phụ thu giá khám (gói) ngoài giờ (chủ nhật)</li>
+							</ul>
+						</div>
+						<h3 class="resume-title">Ưu tiên</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li>Ưu tiên đặt lịch, khám</l>
+								<li>Ưu tiên nguồn vắc-xin ngoại chất lượng tốt</li>
+								<li>Quản lý thai kỳ trọn gói, Bác sĩ hỗ trợ trọn việc, Bệnh viện hỗ trợ trọn gói, Mẹ Bầu
+									không phải lo nghĩ!</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<div class="resume-item">
+							<p>Một thai kỳ khoẻ mạnh, một hành trình vượt cạn êm ái và thoải mái cho cả mẹ và bé yêu
+								khi lựa chọn Gói Thai Sản tại Bệnh viện Đa khoa Xuyên Á TP. Hồ Chí Minh với chương
+								trình ƯU ĐÃI hấp dẫn:
+							</p>
+							<ul>
+								<li><strong>Giảm 10%</strong> Gói Khám Thai</li>
+								<li><strong>Giảm 10%</strong> Gói Sinh Mổ (bao gồm gói cơ bản và năng cao)</li>
+								<li><strong>Giảm 15%</strong> Gói Sinh Thường (bao gồm gói cơ bản và năng cao)</li>
+								<li><strong>Giảm 15%</strong> khi đăng ký đồng thời Gói Khám và Gói Sinh</li>
+							</ul>
+							<p><strong>Đặt biệt: </strong></p>
+							<ul>
+								<li>Dịch vụ sinh không đau, giảm đau sau mổ</li>
+								<li>Dịch vụ hỗ trợ 24/7, giải đáp các thắc mắc và hỗ trợ mẹ bầu kịp thời</li>
+								<li>Cơ sở hiện đại khang trang – dịch vụ toàn diện – an toàn</li>
+								<li>Ưu đãi áp dụng cho mọi đối tượng khách hàng tại Bệnh viện Đa khoa Xuyên Á Tp. Hồ Chí
+									Minh</li>
+							</ul>
+							<p>Bệnh viện Đa khoa Xuyên Á cung cấp đa dạng các Gói Thai Sản từ cơ bản đến nâng
+								cao cho sinh thường và sinh mổ để mẹ bầu có thêm sự lựa chọn đa dạng. Trải nghiệm
+								những đặc quyền khi đăng ký Thai Sản Trọn Gói tại Xuyên Á.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Chi tiết bảng giá và đăng ký</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li><i>Xem chi tiết bảng giá <a href="https://bvxuyena.com.vn/bang-gia-goi-thai-san-2024">tại đây</a>!</i></li>
+								<li><i>Đăng ký tư vấn Gói Thai Sản tại: <a href="https://bvxuyena.com.vn/bang-gia-ho-tro-vien-phi-2024">https://uudaithaisan.bvxuyena.com.vn</a></i></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div  class="col-lg-6 m-t-25" data-aos="fade-up" data-aos-delay="200">
+						<a class="btn-get-started" href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank" style="text-decoration: none;">Xem thêm chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="vacxin" class="resume section">
+			<!-- Section Title -->
+			<div class="container section-title" data-aos="fade-up">
+				<h2>ƯU ĐÃI CHÀO HÈ – VẮC-XIN GIÁ TỐT CHỈ CÓ TẠI XUYÊN Á</h2>
+				<img src="Images/tiemchung.jpg" class="d-block w-100" alt="Slide 3">
+			</div>
+			<!-- End Section Title -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Vắc-xin</h3>
+						<div class="resume-item pb-0">
+							<h4>Giảm mạnh các loại vắc-xin</h4>
+							<ul>
+								<li>Vắc-xin 6 trong 1, <strong>chỉ 990k</strong></li>
+								<li>Vắc-xin phế cầu, <strong>chỉ 1020k</strong></li>
+								<li>Vắc-xin HPV 9 tuýp, <strong>chỉ 2900k</strong></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Thông tin liên quan</h3>
+						<div class="resume-item">
+							<p>Cùng hàng loạt chương trình ưu đãi đang tưng bừng diễn ra tại Đơn vị Tiêm chủng - Bệnh
+								viện Đa khoa Xuyên Á</p>
+							<ul>
+								<li>Ưu đãi giá tiêm lẻ</li>
+								<li>Ưu đãi giá tiêm theo gói</li>
+							</ul>
+							<p>Nhanh tay liên hệ ngay số Tổng đài <strong>18009075 (nhấn phím 1)</strong> hoặc số Hotline Tiêm
+								chủng <strong>0865855115; 0835855115</strong> để được tư vấn cụ thể về các dịch vụ ưu
+								đãi!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Chi tiết bảng giá</h3>
+						<div class="resume-item pb-0">
+								<i>Xem bảng giá chi tiết <a href="https://bvxuyena.com.vn/bang-gia-tiem-chung-2024">tại đây</a>!</i>			
+							</div>
+					</div>
+				
+					<div  class="col-lg-6 m-t-25" data-aos="fade-up" data-aos-delay="200">
+						<a class="btn-get-started" href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank" style="text-decoration: none;">Xem thêm chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="bhyt" class="resume section">
+			<!-- Section Title -->
+			<div class="container section-title" data-aos="fade-up">
+				<h2>GIẢM 20% TIỀN CHÊCH LỆCH PHÍ KHÁM CHO CHUYÊN KHOA ĐẦU TIÊN</h2>
+				<img src="Images/bhyt.jpg" class="d-block w-100" alt="Slide 4">
+			</div>
+			<!-- End Section Title -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Thông tin ưu đãi</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li>Bên cạnh đó, Bệnh viện Đa khoa Xuyên Á cũng tiếp nhận Bảo Hiểm Y Tế thông tuyến toàn quốc (không cần giấy chuyển
+									tuyến). Người dân có thẻ đăng ký Bảo Hiểm Y Tế ban đầu ở bất kỳ bệnh viện nào, khi đến Bệnh viện Đa khoa Xuyên Á
+									khám và điều trị đều sẽ được hưởng quyền lợi Bảo hiểm như đúng tuyến (với mức hưởng tối thiểu 80%).</li>
+								<li>Bệnh viện Đa khoa Xuyên Á tiếp nhận Bảo Hiểm Y Tế tất cả các ngày trong tuần (kể cả thứ Bảy, Chủ Nhật và các
+									ngày
+									lễ).</li>
+								<li>Mọi chi tiết, vui lòng liên hệ Tổng đài <strong>1800 9075 (nhấn phím 1)</strong> để được tư vấn và hướng dẫn cụ
+									thể!</li>
+							</ul>
+						</div>
+					</div>
+					<div  class="m-t-20" data-aos="fade-up" data-aos-delay="200">
+						<a class="btn-get-started" href="https://bvxuyena.com.vn/bvxa-uu-dai/tri-ky-niem-10-nam-ho-tro-vien-phi-hang-loat-dich-vu-tham-kham-xet-nghiem-chan-doan-hinh-anh" target="_blank" style="text-decoration: none;">Xem thêm chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="text-lg-start bg-footer text-muted">
+		<section style="color: #fff;">
+			<div class="container text-md-start">
+				<div class="row mt-3">
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<h6 class="text-uppercase fw-bold mb-4">
+							Bệnh viện đa khoa Xuyên Á
+						</h6>
+						<p>
+							BVXA luôn giữ vững tiêu chí “CHĂM CHÚT TỪ NHỮNG VIỆC NHỎ NHẤT” để thực hiện cam kết
+							cung cấp dịch vụ y tế với chất lượng cao.
+						</p>
+					</div>
+
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<h6 class="text-uppercase fw-bold mb-4">
+							Dịch vụ
+						</h6>
+						<p>
+							<a class="nav-link scrollto active" href="/" style="padding: 0;">Trang chủ</a>
+						</p>
+						<p>
+							<a class="nav-link scrollto" href="#trian10nam" style="padding: 0;">Kỷ niệm 10 năm</a>
+						</p>
+						<p>
+							<a class="nav-link scrollto" href="#goithaisan" style="padding: 0;">Trọn gói thai sản</a>
+						</p>
+						<p>
+							<a class="nav-link scrollto" href="#vacxin" style="padding: 0;">Ưu đãi tiêm chủng</a>
+						</p>
+						<p>
+							<a class="nav-link scrollto" href="#bhyt" style="padding: 0;">Bảo hiểm y tế</a>
+						</p>
+					</div>
+
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<h6 class="text-uppercase fw-bold mb-4">
+							Địa chỉ bệnh viện
+						</h6>
+						<p>
+							<i class="bi bi-geo-alt m-r-5"></i>42, Quốc lộ 22, Ấp Chợ,
+							Xã Tân Phú Trung,
+							Huyện Củ Chi, TP. HCM
+						</p>
+						<p>
+							<i class="bi bi-telephone m-r-5"></i>1800 9075
+						</p>
+						<p>
+							<i class="bi bi-truck m-r-5"></i>(028) 37966999
+						</p>
+						<p>
+							<i class="bi bi-envelope m-r-5"></i>info@bvxuyena.com.vn
+						</p>
+					</div>
+
+					<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+						<div class="me-5 d-none d-lg-block">
+						</div>
+
+						<div style="color: #fff;">
+							<a href="https://www.facebook.com/bvxuyena" class="me-4 text-reset">
+								<i class="bi bi-facebook"></i>
+							</a>
+							<a href="https://www.youtube.com/channel/UC2PBZTYZmYqLp4FwidbrT5w" class="me-4 text-reset">
+								<i class="bi bi-youtube"></i>
+							</a>
+
+							<a href="https://zalo.me/benhvienxuyena#sthash.Lf79DdDL.dpuf" class="me-4 text-reset">
+								<svg style="fill: #fff;" width="25" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+									viewBox="0 0 50 55">
+									<path
+										d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 15.580078 6 C 12.00899 9.7156859 10 14.518083 10 19.5 C 10 24.66 12.110156 29.599844 15.910156 33.339844 C 16.030156 33.549844 16.129922 34.579531 15.669922 35.769531 C 15.379922 36.519531 14.799687 37.499141 13.679688 37.869141 C 13.249688 38.009141 12.97 38.430859 13 38.880859 C 13.03 39.330859 13.360781 39.710781 13.800781 39.800781 C 16.670781 40.370781 18.529297 39.510078 20.029297 38.830078 C 21.379297 38.210078 22.270625 37.789609 23.640625 38.349609 C 26.440625 39.439609 29.42 40 32.5 40 C 36.593685 40 40.531459 39.000731 44 37.113281 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 33 15 C 33.55 15 34 15.45 34 16 L 34 25 C 34 25.55 33.55 26 33 26 C 32.45 26 32 25.55 32 25 L 32 16 C 32 15.45 32.45 15 33 15 z M 18 16 L 23 16 C 23.36 16 23.700859 16.199531 23.880859 16.519531 C 24.050859 16.829531 24.039609 17.219297 23.849609 17.529297 L 19.800781 24 L 23 24 C 23.55 24 24 24.45 24 25 C 24 25.55 23.55 26 23 26 L 18 26 C 17.64 26 17.299141 25.800469 17.119141 25.480469 C 16.949141 25.170469 16.960391 24.780703 17.150391 24.470703 L 21.199219 18 L 18 18 C 17.45 18 17 17.55 17 17 C 17 16.45 17.45 16 18 16 z M 27.5 19 C 28.11 19 28.679453 19.169219 29.189453 19.449219 C 29.369453 19.189219 29.65 19 30 19 C 30.55 19 31 19.45 31 20 L 31 25 C 31 25.55 30.55 26 30 26 C 29.65 26 29.369453 25.810781 29.189453 25.550781 C 28.679453 25.830781 28.11 26 27.5 26 C 25.57 26 24 24.43 24 22.5 C 24 20.57 25.57 19 27.5 19 z M 38.5 19 C 40.43 19 42 20.57 42 22.5 C 42 24.43 40.43 26 38.5 26 C 36.57 26 35 24.43 35 22.5 C 35 20.57 36.57 19 38.5 19 z M 27.5 21 C 27.39625 21 27.29502 21.011309 27.197266 21.03125 C 27.001758 21.071133 26.819727 21.148164 26.660156 21.255859 C 26.500586 21.363555 26.363555 21.500586 26.255859 21.660156 C 26.148164 21.819727 26.071133 22.001758 26.03125 22.197266 C 26.011309 22.29502 26 22.39625 26 22.5 C 26 22.60375 26.011309 22.70498 26.03125 22.802734 C 26.051191 22.900488 26.079297 22.994219 26.117188 23.083984 C 26.155078 23.17375 26.202012 23.260059 26.255859 23.339844 C 26.309707 23.419629 26.371641 23.492734 26.439453 23.560547 C 26.507266 23.628359 26.580371 23.690293 26.660156 23.744141 C 26.819727 23.851836 27.001758 23.928867 27.197266 23.96875 C 27.29502 23.988691 27.39625 24 27.5 24 C 27.60375 24 27.70498 23.988691 27.802734 23.96875 C 28.487012 23.82916 29 23.22625 29 22.5 C 29 21.67 28.33 21 27.5 21 z M 38.5 21 C 38.39625 21 38.29502 21.011309 38.197266 21.03125 C 38.099512 21.051191 38.005781 21.079297 37.916016 21.117188 C 37.82625 21.155078 37.739941 21.202012 37.660156 21.255859 C 37.580371 21.309707 37.507266 21.371641 37.439453 21.439453 C 37.303828 21.575078 37.192969 21.736484 37.117188 21.916016 C 37.079297 22.005781 37.051191 22.099512 37.03125 22.197266 C 37.011309 22.29502 37 22.39625 37 22.5 C 37 22.60375 37.011309 22.70498 37.03125 22.802734 C 37.051191 22.900488 37.079297 22.994219 37.117188 23.083984 C 37.155078 23.17375 37.202012 23.260059 37.255859 23.339844 C 37.309707 23.419629 37.371641 23.492734 37.439453 23.560547 C 37.507266 23.628359 37.580371 23.690293 37.660156 23.744141 C 37.739941 23.797988 37.82625 23.844922 37.916016 23.882812 C 38.005781 23.920703 38.099512 23.948809 38.197266 23.96875 C 38.29502 23.988691 38.39625 24 38.5 24 C 38.60375 24 38.70498 23.988691 38.802734 23.96875 C 39.487012 23.82916 40 23.22625 40 22.5 C 40 21.67 39.33 21 38.5 21 z">
+									</path>
+								</svg>
+							</a>
+
+							<a href="https://bvxuyena.com.vn/" class="me-4 text-reset">
+								<i class="bi bi-google"></i>
+							</a>
+
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer -->
+
+	<a href="#" class="scroll-top d-flex align-items-center justify-content-center"> <i class="bi bi-arrow-up-short"></i> </a>
+	<div id="preloader"></div>
+
+	<!-- Icon Zalo -->
+	<a href="https://zalo.me/benhvienxuyena#sthash.Lf79DdDL.dpuf" class="zalo-icon" target="_blank">
+		<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+			<path fill="#2962ff"
+				d="M15,36V6.827l-1.211-0.811C8.64,8.083,5,13.112,5,19v10c0,7.732,6.268,14,14,14h10	c4.722,0,8.883-2.348,11.417-5.931V36H15z">
+			</path>
+			<path fill="#eee"
+				d="M29,5H19c-1.845,0-3.601,0.366-5.214,1.014C10.453,9.25,8,14.528,8,19	c0,6.771,0.936,10.735,3.712,14.607c0.216,0.301,0.357,0.653,0.376,1.022c0.043,0.835-0.129,2.365-1.634,3.742	c-0.162,0.148-0.059,0.419,0.16,0.428c0.942,0.041,2.843-0.014,4.797-0.877c0.557-0.246,1.191-0.203,1.729,0.083	C20.453,39.764,24.333,40,28,40c4.676,0,9.339-1.04,12.417-2.916C42.038,34.799,43,32.014,43,29V19C43,11.268,36.732,5,29,5z">
+			</path>
+			<path fill="#2962ff"
+				d="M36.75,27C34.683,27,33,25.317,33,23.25s1.683-3.75,3.75-3.75s3.75,1.683,3.75,3.75	S38.817,27,36.75,27z M36.75,21c-1.24,0-2.25,1.01-2.25,2.25s1.01,2.25,2.25,2.25S39,24.49,39,23.25S37.99,21,36.75,21z">
+			</path>
+			<path fill="#2962ff" d="M31.5,27h-1c-0.276,0-0.5-0.224-0.5-0.5V18h1.5V27z"></path>
+			<path fill="#2962ff"
+				d="M27,19.75v0.519c-0.629-0.476-1.403-0.769-2.25-0.769c-2.067,0-3.75,1.683-3.75,3.75	S22.683,27,24.75,27c0.847,0,1.621-0.293,2.25-0.769V26.5c0,0.276,0.224,0.5,0.5,0.5h1v-7.25H27z M24.75,25.5	c-1.24,0-2.25-1.01-2.25-2.25S23.51,21,24.75,21S27,22.01,27,23.25S25.99,25.5,24.75,25.5z">
+			</path>
+			<path fill="#2962ff"
+				d="M21.25,18h-8v1.5h5.321L13,26h0.026c-0.163,0.211-0.276,0.463-0.276,0.75V27h7.5	c0.276,0,0.5-0.224,0.5-0.5v-1h-5.321L21,19h-0.026c0.163-0.211,0.276-0.463,0.276-0.75V18z">
+			</path>
+		</svg>
+		<span class="tooltip" id="tooltip">
+			Hãy liên hệ với chúng tôi để được tư vấn!
+		</span>
+	</a>
+
+	<script>
+        window.onload = function() {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.visibility = 'visible';
+            tooltip.style.opacity = '1';
+
+            setTimeout(() => {
+                tooltip.style.visibility = 'hidden';
+                tooltip.style.opacity = '0';
+            }, 10000); // 10 seconds
+        };
+    </script>
+
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		function updateZaloIconPosition() {
+			var scrollTop = document.querySelector('.scroll-top');
+			var zaloIcon = document.querySelector('.zalo-icon');
+
+			// Kiểm tra sự hiện diện của lớp 'active'
+			if (scrollTop.classList.contains('active')) {
+				// Khi scroll-top hiển thị
+				zaloIcon.style.bottom = '70px'; // Điều chỉnh vị trí của icon Zalo
+			} else {
+				// Khi scroll-top không hiển thị
+				zaloIcon.style.bottom = '20px'; // Trở lại vị trí cũ
+			}
+		}
+
+		// Gọi hàm ngay khi tải trang
+		updateZaloIconPosition();
+
+		// Lắng nghe sự kiện cuộn của trang
+		document.addEventListener("scroll", updateZaloIconPosition);
+	</script>
+	
+	<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const navLinks = document.querySelectorAll('.nav-link');
+				const sections = document.querySelectorAll('section');
+
+				function changeActiveLink() {
+					let index = sections.length;
+
+					while (--index && window.scrollY + 50 < sections[index].offsetTop) { }
+
+					navLinks.forEach((link) => link.classList.remove('active'));
+					navLinks[index].classList.add('active');
+				}
+
+				changeActiveLink();
+				window.addEventListener('scroll', changeActiveLink);
+			});
+
+		</script>
+
+</body>
+
+</html>
